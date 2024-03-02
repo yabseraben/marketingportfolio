@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Analysis Layout</title>
+        <link href="https://fonts.cdnfonts.com/css/tt-norms-pro" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Tt Norms Pro', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Set background color to black */
+                      color: white; 
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+             margin: 20px auto; /* Center the container */
+            flex-wrap: wrap;
+            max-width: 900px; /* Set maximum width */
+          
+        }
+
+        .text {
+            flex: 1;
+            max-width: 70%;
+            padding: 15px;
+        }
+
+        .image {
+            flex: 1;
+            max-width: 30%;
+            text-align: center;
+        }
+
+        .image img {
+            width:100px;
+            height: auto;
+        }
+
+        .container:nth-child(even) .image {
+            order: -1;
+        }
+
+        p{
+            font-size: 18px;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="text">
+        <h2>Increased Engagement: </h2>
+        <p>We witnessed a surge in engagement from students across various groups on campus, indicating that our efforts to create a welcoming and inclusive environment resonated widely. This engagement was not just in numbers but in the quality of interactions and the genuine interest shown by students in understanding and participating in our leadership programs.</p>
+    </div>
+    <div class="image">
+        <img src="graph.png" alt="Financial Recovery and Growth">
+    </div>
+</div>
+
+<div class="container">
+    <div class="text">
+        <h2>Diverse Applications:</h2>
+        <p>The initiative culminated in receiving 150 applications from students of diverse backgrounds, spanning 25 different majors. This diversity was a testament to the success of our outreach, demonstrating that leadership is a universal aspiration that crosses disciplinary boundaries.</p>
+    </div>
+    <div class="image">
+       <img width="32" height="32" src="market.png" alt="external-market-economics-outline-outline-black-m-oki-orlando"/>
+    </div>
+</div>
+
+<div class="container">
+    <div class="text">
+        <h2>Personal Growth and Learning:</h2>
+        <p>Through this process, I learned the invaluable lesson that effective leadership and community building are about more than just organizing and communicating. They are deeply rooted in listening, understanding, and acting on the feedback and needs of the community you aim to serve. This empathetic approach to leadership not only fosters a positive environment but also encourages others to step up and lead.</p>
+    </div>
+    <div class="image">
+        <img src="set.png" alt="Operational Efficiency">
+    </div>
+</div>
+
+<div class="container">
+    <div class="text">
+        <h2>Breaking Barriers: </h2>
+        <p>Perhaps the most rewarding outcome was witnessing students break through their personal and societal barriers, redefining what they believed was possible for themselves as future leaders.</p>
+    </div>
+    <div class="image">
+        <img src="ethi.png" alt="Ethical and CSR Contribution">
+    </div>
+</div>
